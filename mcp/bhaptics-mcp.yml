@@ -1,0 +1,10 @@
+generated: '2026-09-28'
+method: derived
+source: "mcp/bhaptics-mcp.yml"
+deployment:
+  mode: none
+  
+  install: ""
+  package: ""
+  auth: unknown
+  verified: derived

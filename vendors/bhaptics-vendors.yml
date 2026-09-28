@@ -1,0 +1,60 @@
+generated: '2026-09-28'
+method: probed
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors:
+- vendor: docusaurus
+  name: Docusaurus
+  area: documentation
+  host: docs.bhaptics.com
+  evidence: markup:docusaurus
+  signal: docs-platform
+  confidence: medium
+  kin_score: []
+- vendor: vercel
+  name: Vercel
+  area: hosting
+  host: docs.bhaptics.com
+  evidence: cname:cname.vercel-dns.com
+  signal: docs-platform
+  confidence: medium
+  kin_score: []
+- vendor: freshdesk
+  name: Freshdesk
+  area: support
+  host: support.bhaptics.com
+  evidence: cname:freshdesk.com
+  signal: cname
+  confidence: high
+  kin_score:
+  - support_channel
+reliance:
+  areas_vendor_served:
+  - documentation
+  - hosting
+  - support
+  vendor_count: 3
+  areas_observed: 12
+  share_of_observable_areas: 0.25
+  note: areas where a third party was DETECTED serving this provider; an area absent here was either self-run or not observed, and this script
+    cannot tell those apart
+checked:
+- 'docs-platform: docusaurus'
+- www.bhaptics.com (Website)
+- docs.bhaptics.com (Documentation)
+- www.bhaptics.com (DeveloperPortal)
+- www.bhaptics.com (GettingStarted)
+- support.bhaptics.com (Support)

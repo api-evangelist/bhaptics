@@ -1,0 +1,28 @@
+# bHaptics TactSuit Haptic Feedback Devices
+
+> bHaptics develops haptic suits, including the TactSuit Pro and Air, designed to provide tactile feedback and enhance immersion in VR and PC gaming. The products are "Made for Meta" certified and support over 100 games across platforms like Meta Quest, SteamVR, and PS VR2. And bHaptics was founded on May 1, 2015.
+
+## Products
+- [TactSuit Pro](https://www.bhaptics.com/shop/tactsuit-pro): The ultimate haptic vest with 32 feedback points.
+- [TactSuit Air](https://www.bhaptics.com/shop/tactsuit-air): A lighter haptic vest, certified for Meta Quest.
+- [TactSleeve](https://www.bhaptics.com/shop/tactsleeve): Haptic sleeves for arms.
+- [Other Accessories](https://www.bhaptics.com/shop/accessories): Includes TactVisor, TactGlove, and Tactosy for Feet.
+
+## Compatibility
+- [Meta Quest Games](https://www.bhaptics.com/games/meta-quest): Games with native haptic support on Meta Quest.
+- [Steam VR Games](https://www.bhaptics.com/games/steam-vr): Games with native haptic support on SteamVR.
+- [PS VR2 Games](https://www.bhaptics.com/games/ps-vr2): Games with native haptic support on PlayStation VR2.
+- [PC Games](https://www.bhaptics.com/games/pc): PC games with native support.
+- [Audio-to-Haptics](https://www.bhaptics.com/software): Software that converts audio output into haptic feedback for any game or media.
+
+## Support & Developers
+- [Setup Guides](https://www.bhaptics.com/support/setup): Instructions for setting up bHaptics devices.
+- [FAQ & Shipping](https://www.bhaptics.com/support/faq): Frequently asked questions about products and shipping.
+- [Developer Portal](https://www.bhaptics.com/developer): Resources for integrating haptics into games and applications.
+- [Customer Support](mailto:support@bhaptics.com): Direct email for support inquiries.
+
+## Optional
+- [Game Clips](https://www.youtube.com/c/bHaptics): Gameplay videos and reviews on the official YouTube channel.
+- [About bHaptics](https://www.bhaptics.com/about): Information about the company.
+- [News](https://www.bhaptics.com/news): News about bHaptics
+

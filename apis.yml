@@ -1,23 +1,94 @@
 aid: bhaptics
+
 name: Bhaptics
-description: 'Bhaptics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.bhaptics.com/images/opengraph-image.jpg
+
+description: Bhaptics creates advanced haptic technology, offering wearable haptic suits, vests, and accessories that enable developers to integrate
+  tactile feedback into games, VR experiences, and other interactive applications. Their platform provides SDKs, APIs, and developer tools to
+  control haptic patterns, synchronize with audio and visual cues, and deliver immersive sensations across a range of devices.
+
 url: https://raw.githubusercontent.com/api-evangelist/bhaptics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
 - Company
-apis: []
+- Haptics
+- Wearables
+- Gaming
+- VR
+- DeveloperTools
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/bhaptics-llms.txt
+- type: Hosts
+  url: hosts/bhaptics-hosts.yml
+- type: Vendors
+  url: vendors/bhaptics-vendors.yml
+- type: SDKs
+  url: packages/bhaptics-packages.yml
+- type: Packages
+  url: packages/bhaptics-packages.yml
+- type: TermsOfService
+  url: https://www.bhaptics.com/legals/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.bhaptics.com/legals/privacy-policy
+- type: Newsroom
+  url: https://www.bhaptics.com/news/
+- type: Blog
+  url: https://www.bhaptics.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/bhaptics
+- type: DomainSecurity
+  url: security/bhaptics-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bhaptics
+  url: https://www.bhaptics.com
+- type: Documentation
+  url: https://docs.bhaptics.com
+- type: DeveloperPortal
+  url: https://www.bhaptics.com/support/developers/?type=sdk
+- type: GettingStarted
+  url: https://www.bhaptics.com/about
+- type: Support
+  url: https://support.bhaptics.com
+
+apis:
+- name: Bhaptics API
+  description: API for controlling bHaptics devices
+  humanURL: https://developer.bhaptics.com/applications
+  baseURL: null
+  aid: bhaptics:bhaptics-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Docs site renders via Docusaurus JavaScript, preventing machine-readable spec discovery.
+  evidence:
+  - url: https://docs.bhaptics.com
+    status: 200
+  checked: '2026-09-28'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

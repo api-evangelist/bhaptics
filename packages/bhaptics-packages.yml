@@ -1,0 +1,51 @@
+generated: '2026-09-28'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/bhaptics
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (bhaptics.com,
+  security/bhaptics-domain-security.yml) or its accepted GitHub org (bhaptics).'
+packages:
+- name: tact-js
+  registry: github
+  url: https://github.com/bhaptics/tact-js
+  language: JavaScript
+  official: true
+  version: null
+  published: '2026-09-21'
+  source_repo: https://github.com/bhaptics/tact-js
+  evidence: repository in github.com/bhaptics, whose profile names the provider's domain
+- name: tact-python
+  registry: github
+  url: https://github.com/bhaptics/tact-python
+  language: Python
+  official: true
+  version: null
+  published: '2025-08-05'
+  source_repo: https://github.com/bhaptics/tact-python
+  evidence: repository in github.com/bhaptics, whose profile names the provider's domain
+- name: tact-go2
+  registry: github
+  url: https://github.com/bhaptics/tact-go2
+  language: Go
+  official: true
+  version: null
+  published: '2025-04-01'
+  source_repo: https://github.com/bhaptics/tact-go2
+  evidence: repository in github.com/bhaptics, whose profile names the provider's domain
+- name: tact-java
+  registry: github
+  url: https://github.com/bhaptics/tact-java
+  language: Java
+  official: true
+  version: null
+  published: '2021-04-13'
+  source_repo: https://github.com/bhaptics/tact-java
+  evidence: repository in github.com/bhaptics, whose profile names the provider's domain
+- name: bhaptics
+  registry: nuget
+  url: https://www.nuget.org/packages/bhaptics
+  language: C#
+  official: false
+  version: 0.0.1
+  published: null
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
