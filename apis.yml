@@ -23,7 +23,18 @@ created: '2026-09-28'
 
 modified: '2026-09-28'
 
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: vercel
 tags:
+- Company
+- Haptics
+- Wearables
+- Gaming
+- VR
+- Developer Tools
+tags_raw:
 - Company
 - Haptics
 - Wearables
